@@ -1,0 +1,394 @@
+ @charset "utf-8";
+/* CSS Document */
+
+
+/***************************************** (960px) (YELLOW) ******************************************/
+
+@media (max-width:1080px){
+	#contenedorMiCuenta{
+	width: 100%;
+	height: 800px;
+	background-color: none;
+}
+
+
+			#menuMiCuenta{
+				width: 100%;
+				height: auto;
+				background-color: none;
+				font-size: 15px;
+			}
+
+
+							#espaciado{
+								margin-top: 5px
+							}
+
+							  #logoDeSA{
+							  	width: 140px;
+							  	height: 50px;
+							  	background-color: #333333;
+							  	background-image: url(http://managercode.com.ve/wp-content/uploads/2017/01/fenetalone.png);
+							  	background-size: 90%;
+							  	background-repeat: no-repeat;
+							  	background-position: left;
+							  	margin-top: 0px;
+							  	margin-bottom: 5px;
+							  	display: inline-block;
+							  	box-sizing: border-box;
+							  	vertical-align: top;
+							  	margin-top: 5px;
+								
+							  }
+							  #misProyectos{
+							  	width: 140px;
+							  	height: 50px;
+							  	background-color: #63be33;
+							  	display: inline-block;
+							  	margin-bottom: 5px;
+							  	margin-top: 5px;
+							  	-webkit-box-sizing: border-box;
+								-moz-box-sizing: border-box;									    
+								padding-top: 10px;
+								vertical-align: top;
+							  }
+							  #solicitudDeServicios{
+							  	width: 140px;
+							  	height: 50px;
+							  	background-color: #63be33;
+							  	display: inline-block;
+							  	margin-top: 5px;
+							  	margin-bottom: 5px;
+							  	-webkit-box-sizing: border-box;
+								-moz-box-sizing: border-box;									    
+								padding-top: 10px;
+								vertical-align: top;
+							  }
+							  #pagosYFacturas{
+							  	width: 140px;
+							  	height: 50px;
+							  	background-color: #63be33;
+							  	display: inline-block;
+							  	margin-top: 5px;
+							  	margin-bottom: 5px;
+							  	-webkit-box-sizing: border-box;
+								-moz-box-sizing: border-box;									    
+								padding-top: 10px;
+								vertical-align: top;
+							  }
+							  #ticketsDeServicios{
+							  	width: 140px;
+							  	height: 50px;
+							  	background-color: #63be33;
+							  	display: inline-block;
+							  	margin-top: 5px;
+							  	margin-bottom: 5px;
+							  	-webkit-box-sizing: border-box;
+								-moz-box-sizing: border-box;									    
+								padding-top: 10px;
+								vertical-align: top;
+							  }
+							  #guiasYTutoriales{
+							  	width: 140px;
+							  	height: 50px;
+							  	background-color: #63be33;
+							  	display: inline-block;
+							  	margin-top: 5px;
+							  	margin-bottom: 5px;
+							  	-webkit-box-sizing: border-box;
+								-moz-box-sizing: border-box;									    
+								padding-top: 10px;
+								vertical-align: top;
+							  }
+
+
+			#contenedorInformacion{
+				width: 100%;
+			}
+
+
+}
+
+
+@media (max-width:885px){
+	#contenedorMiCuenta{
+	width: 100%;
+	height: 800px;
+	background-color: none;
+}
+
+.hidden2 {display: block;}
+.show2 {display: none;}
+
+			#menuOpciones{			
+				width: 100%;
+				float: left;
+				height: 30px;
+				background-color: black;
+				background-image: url(../img/flecha.png);
+				background-repeat: no-repeat;
+				background-size: 13px;
+				background-position: 50% 20px;
+				text-align: center;
+				color: white;
+				margin-bottom: 40px;
+			}
+
+			#menuMiCuenta{
+				width: 100%;
+				height: auto;
+				background-color: none;
+				
+			}
+
+
+			#contenedorInformacion{
+				width: 100%;
+			}
+
+
+
+							#nuevasFT{
+								width: 100%;
+								height: 50px;
+								background-color: none;
+								margin-bottom: 20px;
+							}
+									
+
+							#dominios{
+								width: 100%;
+								height: auto;
+								float: none;
+								background-color: none;
+							}
+
+									#divDeDominios{
+										margin: 0 auto;							
+									}
+
+									#contenidoDeDominios{
+										margin: 0 auto;
+										width: 270px;
+										height: 100px;
+										background-color: none;						
+									}
+
+							#soportes{
+								width: 100%;
+								height: auto;
+								float: none;
+								background-color: none;
+							}
+
+									#divDeSoportes{
+										margin: 0 auto;
+									}
+
+									#contenidoDeSoportes{
+										margin: 0 auto;
+										width: 270px;
+										height: 100px;
+										background-color: none;
+													
+									}
+
+							#camaras{
+								width: 100%;
+								height: auto;
+								float: none;
+								background-color: none;
+							}
+
+									#divDeCamaras{
+										margin: 0 auto;	
+									}
+
+
+									#contenidoDeCamaras{
+										width: 270px;
+										height: 100px;
+										background-color: none;
+										margin: 0 auto;								
+									}
+
+
+
+
+
+
+
+
+
+							#hosting{
+								width: 100%;
+								height: auto;
+								float: none;
+								background-color: none;
+							}
+
+									#divDeHosting{
+										margin: 0 auto;
+									
+									}
+
+									#contenidoDeHosting{
+										width: 270px;
+										height: 100px;
+										background-color: none;
+										margin: 0 auto;
+									
+									}
+
+							#sistemas{
+								width: 100%;
+								height: auto;
+								float: none;
+								background-color: none;
+							}
+
+									#divDeSistemas{
+										margin: 0 auto;
+									}
+
+									#contenidoDeSistemas{
+										width: 270px;
+										height: 100px;
+										background-color: none;
+										margin: 0 auto;
+									
+									}
+
+							#redes{
+								width: 100%;
+								height: auto;
+								float: none;
+								background-color: none;
+							}
+
+									#divDeRedes{
+										margin: 0 auto;
+									}
+
+
+									#contenidoDeRedes{
+										width: 270px;
+										height: 100px;
+										background-color: none;
+										margin: 0 auto;
+									
+									}
+
+
+
+
+
+
+
+
+
+
+							#proyectosWeb{
+								width: 100%;
+								height: auto;
+								float: none;
+								background-color: none;
+							}
+
+									#divDeProyectosWeb{
+										margin: 0 auto;
+									}
+
+									#contenidoDeProyectosWeb{
+										width: 270px;
+										height: 100px;
+										background-color: none;
+										margin: 0 auto;
+									
+									}
+
+							#socialMarketing{
+								width: 100%;
+								height: auto;
+								float: none;
+								background-color: none;
+							}
+
+									#divDeSocialMarketing{
+										margin: 0 auto;
+									
+									}
+
+									#contenidoDeSocialMarketing{
+										width: 270px;
+										height: 100px;
+										background-color: none;
+										margin: 0 auto;
+									
+									}
+
+							#disenos{
+								width: 100%;
+								height: auto;
+								float: left;
+								background-color: none;
+							}
+
+									#divDeDisenos{
+										margin: 0 auto;
+									}
+
+
+									#contenidoDeDisenos{
+										width: 270px;
+										height: 100px;
+										background-color: none;
+										margin: 0 auto;
+									
+									}
+
+	.textAreaLabel{
+		width: 300px;
+		height: 200px;
+											
+	}
+}
+
+
+
+
+@media (max-width:480px){
+
+
+								#facturas{
+									
+										float: left;
+										display: none;
+										
+									}
+
+								#tickets{
+									
+										float: left;
+										display: none;
+										
+									}
+
+											#nuevasFacturas{
+												width: 80px;
+												height: 50px;
+												background-size: 45%;
+											}
+
+											#nuevosTickets{
+												width: 100px;
+												height: 50px;
+												background-size: 45%;
+	
+											}
+		.textAreaLabel{
+		width: 240px;
+		height: 150px;
+											
+	}
+}

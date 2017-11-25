@@ -1,0 +1,893 @@
+@charset "utf-8"
+/* CSS Document*/
+
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow: none;
+}
+
+/**********CLASES DE VENTANAS JS*********/
+.hidden {display: none;}
+.show {display: block;}
+
+header a{
+	color: black;
+}
+
+footer a{
+	color: black;
+}
+/*****************************************/
+
+
+
+/*--------------------------HEADER-----------------------------------------*/
+
+
+
+header{
+	width: 100%;
+	height:9%;
+	background-color: white;
+	position: relative; 
+}
+
+		#contenedorbottonMenu{
+			width: 30%;
+			height: 73%;
+			background-color: none;
+			position: absolute;
+			top:20%;
+			left:2%; 
+
+		}
+						#bottonMenu{
+						width: 15%;
+						height: 100%;
+						background-color: none;
+						float: left;
+						background-image: url(../img/menu.png);
+						background-size: 85%;
+						background-position: center;
+						background-repeat: no-repeat;
+						
+					}
+
+					#systemsAdms{
+						width: 85%;
+						height: 100%;
+						background-color: none;
+						float: left;
+						
+					}
+
+										#systems{
+										width: 70px;
+										height: 55%;
+										background-color: none;
+										font-size: 110%;
+										margin-top: 1.5%;
+										margin-left: 0.1%;
+										display: inline-block;
+									}
+
+									#adms{
+										width: 110px;
+										height: 55%;
+										background-color: none;
+										font-size: 110%;
+										margin-top: 1.5%;
+										margin-left: 0.1%;
+										display: inline-block;
+									}
+										#rifMenu{
+										width: 70%;
+										height: 30%;
+										background-color: none;
+										font-size: 10px;
+										margin-left: 10px;	
+									}
+
+		#contenedorbottonClientes{
+			width: 11%;
+			height: 73%;
+			background-color: none;
+			position: absolute;
+			top:20%;
+			right:0.5%; 
+		}
+
+									#cliente{
+										width: 25%;
+										height: 100%;
+										background-color: none;	
+										float: left;
+										background-image: url(../img/cliente.png);
+										background-size: 100%;
+										background-position: center;
+										background-repeat: no-repeat;
+
+										
+									}
+										#areadeCliente{
+										width: 70%;
+										height: 60%;
+										background-color: none;
+										font-size: 20px;
+										float: left;
+										margin-top: 7%;
+										margin-left: 1%;
+									}
+/*--------------------------FIN HEADER-----------------------------------------*/
+
+/*--------------------------SECTION PAGINA PRINCIPAL-----------------------------------------*/
+#original{
+	width: 100%;
+	height: 83%;
+	background-color: none;
+	background-image: url(../img/tokio.jpg);
+	background-size: 100% 130%;
+}
+
+/*--------------------------FIN SECTION PAGINA PRINCIPAL-----------------------------------------*/
+
+/*--------------------------FOOTER-----------------------------------------*/
+footer{
+	width: 100%;
+	height:8%;
+	background-color: white;
+}
+		#bottonServicios{
+			width: 33.33%;
+			height: 100%;
+			float: left;
+			background-color: none;
+		}
+				#servicios{
+							width: 220px;
+							height:100%;
+							background-color: none;
+							margin: 0 auto;
+						}
+
+
+						#imgServicios{
+							width: 50px;
+							height:100%;
+							float: left;
+							background-color: none;
+							background-image: url(../img/servicios.jpg);
+							background-size: 120%;
+							background-repeat: no-repeat;
+							background-position: center;
+						}
+
+		#bottonPlanesdepago{
+			width: 33.33%;
+			height: 100%;
+			float: left;
+			background-color: none;
+		}
+
+			#planesdepago{
+							width: 280px;
+							height:100%;
+							background-color: none;
+							margin: 0 auto;
+						}
+
+									#imgPlanesdepago{
+										width: 50px;
+										height:100%;
+										float: left;
+										background-color: none;
+										background-image: url(../img/planes.jpg);
+										background-size: 110%;
+										background-repeat: no-repeat;
+										background-position: center;
+									}
+
+
+
+		#bottonContactenos{
+			width: 33.33%;
+			height: 100%;
+			float: left;
+			background-color: none;
+		}
+				#contactenos{
+							width: 220px;
+							height:100%;
+							background-color: none;
+							margin: 0 auto;
+						}
+						#imgContactenos{
+							width: 50px;
+							height:100%;
+							float: left;
+							background-color: none;
+							background-image: url(../img/contacto.png);
+							background-size: 110%;
+							background-repeat: no-repeat;
+							background-position: center;
+						}
+
+
+						.textFooter1{
+							width: 220px;
+							height: 30px;
+							background-color:none;
+							padding-top: 5%;
+							font-size: 21px;	
+						}
+
+						.textFooter2{
+							width: 280px;
+							height: 30px;
+							background-color:none;
+							padding-top: 5%;
+							font-size: 21px;	
+						}
+/*--------------------------FIN FOOTER-----------------------------------------*/
+
+/*--------------------------SECTION PAGINA SERVICIOS-----------------------------------------*/
+
+	#ventanaServicios{
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+	background-color: rgba(0000, 0, 0, 0.5);
+	z-index: 100;
+	/*background-image: url(../img/dubai.jpg);
+	background-size: 100% 100%;*/
+	}
+
+	#serviciosPagina{
+		width: 50%;
+		height: 100%;
+		float: left; 
+		background-color: none;
+	}
+
+	#serviciosPagina a{
+		text-decoration: none;
+	}
+
+			#desarrolloweb{
+				width: 395px;
+				height: 26%;
+				background-color: rgba(0000, 0, 0, 0.7);
+				background-image: url(../img/web.png);
+				background-size: 45% 100%;
+				padding-top: 3px;
+				-moz-box-sizing: border-box;
+				background-repeat: no-repeat;
+				background-position: right;
+				margin: 0 auto;
+				margin-top: 45px;
+			}
+
+			.predesarrollo{
+				color: white;
+				font-size: 30px;
+			}
+
+
+			#dominioyHosting{
+				width: 395px;
+				height: 26%;
+				background-color: rgba(0000, 0, 0, 0.7);
+				background-image: url(../img/hosting.png);
+				background-size: 45% 90%;
+				background-repeat: no-repeat;
+				background-position: right;
+				margin: 10px auto;
+				padding-top: 1px;
+				-moz-box-sizing: border-box;
+			}
+
+
+			#mercadeoSocial{
+				width: 395px;
+				height: 26%;
+				background-color: rgba(0000, 0, 0, 0.7);
+				background-image: url(../img/social.png);
+				background-size: 50%;
+				background-repeat: no-repeat;
+				background-position: right;
+				margin: 10px auto;
+				padding-top: 1px;
+			}
+
+
+	#serviciosSoporte{
+		width: 50%;
+		height: 100%;
+		float: left; 
+		background-color: none;
+	}
+
+	#serviciosSoporte a{
+		text-decoration: none;
+	}
+
+			#soporteTecnico{
+				width: 395px;
+				height: 26%;
+				background-color: rgba(0000, 0, 0, 0.7);
+				background-image: url(../img/soporte.png);
+				background-size: 50%;
+				background-repeat: no-repeat;
+				background-position: 180px 0px;
+				margin: 0 auto;
+				margin-top: 45px;
+				padding-top: 1px;
+			}
+
+			#cCTV{
+				width: 395px;
+				height: 26%;
+				background-color: rgba(0000, 0, 0, 0.7);
+				background-image: url(../img/cctv.png);
+				background-size: 50%;
+				background-repeat: no-repeat;
+				background-position: 170px 0px;
+				margin: 10px auto;
+				padding-top: 1px;
+			}
+					.textcctv{
+						font-size: 8px;
+					}
+
+			#network{
+				width: 395px;
+				height: 26%;
+				background-color: rgba(0000, 0, 0, 0.7);
+				background-image: url(../img/redes.png);
+				background-size: 60% 100%;
+				background-repeat: no-repeat;
+				background-position: right;
+				margin: 10px auto;
+				padding-top: 1px;
+			}
+	
+				
+
+/*--------------------------FIN SECTION PAGINA SERVICIOS-----------------------------------------*/
+
+
+
+
+/*--------------------------SECTION PAGINA CONTACTENOS-----------------------------------------*/
+
+	#sectionContactanos{
+	width: 100%;
+	height: 100%;
+	/*background-color: none;
+	background-image: url(../img/dubai.jpg);
+	background-size: 100% 100%;*/
+	}
+
+	#formularioContactenos{
+				width: 100%;
+				height: 100%;
+				background-color: rgba(000, 0, 0, 0.7);
+				text-align: center;
+				}
+							.inputc{
+									background: none;
+									width: 280px;
+									height: 30px;
+									border-radius: 5px;
+									color:white;
+									border-color: white;
+									margin-top: 30px;
+									}
+							#area{
+										width: 278px;
+										height: 150px;
+										margin-top: 30px;				
+									}
+
+							#bottonsubmit{
+										width: 120px;
+										height: 40px;
+										font-size:15px; 
+										margin-top: 15px;							
+										background: none;
+										border-color: white;
+										color: white;
+										cursor: pointer;
+									}
+
+							#bottonsubmit:hover{
+										background-color: black;
+									}
+
+				#informacion{
+					width: 450px;
+					height: 100%;
+					background-color: rgba(0000, 0, 0, 0.5);
+					float: left;
+				}
+
+							#telefono{
+								height: 20%;
+								width: 400px;
+								background-image: url(../iconos/telefono.png);
+								background-position: left;
+								background-repeat: no-repeat;
+								background-color: none;
+								margin:10% auto;
+							}
+									.tituloscontacto{
+										color: white;
+										font-size: 20px;
+									}
+
+							#email{
+								height: 20%;
+								width: 400px;
+								background-color: none;
+								background-image: url(../iconos/correo.png);
+								background-size: 25%;
+								background-position: left;
+								background-repeat: no-repeat;
+								margin:5% auto;
+							}
+							
+							#correo{
+								height: 20%;
+								width: 400px;
+								background-color: none;
+								background-image: url(../iconos/social23.png);
+								background-size: 25%;
+								background-position: left;
+								background-repeat: no-repeat;
+								margin:10% auto;
+							}
+/*--------------------------FIN SECTION PAGINA CONTACTENOS-----------------------------------------*/
+
+/*--------------------------SECTION PAGINA AREA DEL CLEINTE-----------------------------------------*/
+	/*#sectionAreaDeClientes{
+	width: 100%;
+	height: 83%;
+	min-height: 500px;
+	background-color: none;
+	background-image: url(../img/section.jpg);
+	background-size: 100% 100%;
+	}*/
+
+			#loginmodal{
+			width:400px; 
+			height: 100%;
+			float:right;
+     		background-color: rgba(0000, 0, 0, 0.5);
+			border-left-color: white;
+			color: white;			
+
+		}
+
+								
+							#tipo{
+								float:right;
+							}
+							
+							#camposlogin{
+								margin: 10% auto 0 auto; 
+								text-align:center; 
+								font-size:1.3em; 
+								color:white;
+							}
+							
+							#registro{
+								text-align:center; 
+								margin-top:4em; 
+								font-size:1.1em;	
+							}
+							
+							#social{
+								text-align:center; 
+								margin-top:4em;	
+							}
+							
+							#loginmodal a{
+								color:#FFF;
+								text-decoration:none;
+							}
+							
+							#loginmodal a:hover{			
+								text-decoration:line-through;		
+							}
+
+							#inputareadeClientes{
+								width: 200px;
+								height: 20px;
+							}
+							
+		#recuperar{
+			width:30%; 
+			height:99.6%; 
+			float:right;			 			
+			background-color: rgba(0000, 0, 0, 0.5);
+			text-align:center;
+			color:#FFF;
+		}
+		
+						#recuperartitulo{
+							margin: 3em 0 3em 0;
+						}
+
+
+		#iramiCuenta{
+			width: 200px;
+			height: 100px;
+			background-color: none;
+			margin:50px auto;
+			text-align: center;
+			font-size: 20px;
+		}
+
+/*--------------------------FIN SECTION PAGINA AREA DEL CLIENTE-----------------------------------------*/
+
+/*--------------------------SECTION PAGINA MENU-----------------------------------------*/
+
+
+			nav{
+				width: 250px;
+				height: 450px;
+				background-color: rgba(0000, 0, 0, 0.5);
+				/*background-color: blue;*/
+				position: absolute;
+				margin-left: 2.5%;
+				padding-left: 0px;
+				color: white;
+				font-size: 20px;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+			    -moz-box-sizing: border-box;
+			    border: 1px solid white;
+			    z-index: 100;
+			 	
+			}
+
+			nav li{
+				width: 160px;
+				height: 40px;
+				padding-top: 7px;
+				background-color: none;
+				list-style: none;
+				border-bottom: 1px solid gray;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+			    -moz-box-sizing: border-box;
+
+			}
+
+			nav a{
+				text-decoration: none;
+				color: white			
+			}
+
+			nav a:hover{
+				text-decoration: line-through;
+
+			}
+
+
+/*--------------------------FIN SECTION PAGINA MENU-----------------------------------------*/
+
+
+
+
+/*-----------------CONTENEDOR PARA TODAS LAS DEMAS SECCIONES QUE NO SEAN EN INDEX-----------------------------------------*/
+
+#contenidoDelBody{
+			position: relative;
+			background-color: blue;
+			width: 100%;
+			height: auto;
+		}
+
+
+/*-----------------FIN CONTENEDOR PARA TODAS LAS DEMAS SECCIONES QUE NO SEAN EN INDEX-----------------------------------------*/
+
+
+
+
+
+
+
+
+/**********************************************SOLICITAR SERVICIOS************************************************************/
+#contenidoGeneral{
+	width: 100%;
+	height: 1300px;
+	background-color: #f5f5f5;
+	padding-top: 15px;
+}
+
+#contenidoGeneral a{
+	color: black;
+	text-decoration:none;
+}
+
+	#contenidoDesarrolloWeb{
+		width: 100%;
+		height: 450px;
+		background-color: #f5f5f5;
+		margin: 0 auto;
+		background-image: url(../img/web.png);
+		background-size: 300px;
+		background-repeat: no-repeat;
+		background-position: 50px 120px;
+
+	}
+
+	
+	#contenidoDominioyHosting{
+		width: 100%;
+		height: 450px;
+		background-color: #FAFAFA;
+		margin: 0px auto;
+		background-image: url(../img/hosting.png);
+		background-size: 300px;
+		background-repeat: no-repeat;
+		background-position: 920px 120px;
+	}
+	#contenidoMercadeoSocial{
+		width: 100%;
+		height: 450px;
+		background-color: #f5f5f5;
+		margin: 0 auto;
+		background-image: url(../img/social.png);
+		background-size: 300px;
+		background-repeat: no-repeat;
+		background-position: 50px 120px;
+	}
+
+	#contenidoSoporteTecnico{
+		width: 100%;
+		height: 450px;
+		background-color: #FAFAFA;
+		margin: 0px auto;
+		background-image: url(../img/soporte.png);
+		background-size: 300px;
+		background-repeat: no-repeat;
+		background-position: 920px 120px;
+	}
+	#contenidoCCTV{
+				width: 100%;
+		height: 450px;
+		background-color: #f5f5f5;
+		margin: 0 auto;
+		background-image: url(../img/cctv.png);
+		background-size: 300px;
+		background-repeat: no-repeat;
+		background-position: 50px 120px;
+	}
+	#contenidonetwork{
+		width: 100%;
+		height: 450px;
+		background-color: #FAFAFA;
+		margin: 0px auto;
+		background-image: url(../img/redes.png);
+		background-size: 300px;
+		background-repeat: no-repeat;
+		background-position: 920px 120px;
+	}
+
+
+
+	.bottonSolicitarServicio{
+		width: 400px;
+		height: 40px;
+		background-color: #0079d1;
+		margin: 50px auto 0px;
+		border-radius: 5px;
+		text-align: center;
+		padding-top: 5px;
+		color: white;
+		font-size: 22px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;			   
+	}
+
+		.bottonSolicitarServicio:hover{
+			background-color: #005b9e;}
+
+
+	.escrituraContenidoDerecha{
+		width: 65%;
+		height: auto;
+		background-color: none;
+		float: right;
+		text-align: center;
+		padding-right: 30px;
+		font: 15px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		
+	}
+
+	.escrituraContenidoIzquierda{
+		width: 65%;
+		height: auto;
+		background-color: none;
+		float: left;
+		text-align: center;
+		font: 15px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	}
+
+
+/**********************************************SOLICITAR SERVICIOS************************************************************/
+
+
+
+
+
+/**********************************************PLANES DE PAGO************************************************************/
+#divPlanesDeServicios {
+	text-align: center;
+	margin-bottom: 100px;
+	background-color: none;
+	padding-top: 2em;
+	background-color: transparent;
+}
+
+#divPlanesDeServicios p{	
+	font-size: 2em; 
+	color: #333;
+	text-align: center;
+	background-color: transparent;
+}
+
+
+
+	#planesContenedor{
+		position: relative;
+		width: 250px;
+		height: 420px;
+		margin-top: 20px;
+		margin-left: 25px;
+		border: solid 1px white;
+		display: inline-block;
+		vertical-align: top;
+		background-color: #f8f7f7;
+	    padding-left: 0px;
+	    text-align: left;
+	    font-size: 16px;
+	}
+
+	#imgPortalWeb{
+		width: 120px;
+		height: 80px;
+		margin: 0 auto;
+		background-color: none;
+		background-image: url(../img/soporte.png);
+		background-size: 120px 80px;
+		background-repeat: no-repeat;
+	}
+
+	#imgDisenoProfesional{
+		width: 120px;
+		height: 80px;
+		margin: 0 auto;
+		background-color: none;
+		background-image: url(../img/redes.png);
+		background-size: 120px 80px;
+		background-repeat: no-repeat;
+	}
+
+	#imgDesarrolloCoorporativo{
+		width: 120px;
+		height: 80px;
+		margin: 0 auto;
+		background-color: none;
+		background-image: url(../img/social.png);
+		background-size: 120px 80px;
+		background-repeat: no-repeat;
+	}
+
+		#imgDisenoWeb{
+		width: 120px;
+		height: 80px;
+		margin: 0 auto;
+		background-color: none;
+		background-image: url(../img/web.png);
+		background-size: 120px 80px;
+		background-repeat: no-repeat;
+	}
+
+	#imgSoporte{
+		position: absolute;
+		top: 100px;
+		left: 140px;
+		width: 100px;
+		height: 50px;
+		margin: 0 auto;
+		background-color: none;
+		background-image: url(../img/web.png);
+		background-size: 100px 50px;
+		background-repeat: no-repeat;
+	}
+
+	#imgCamaras{
+		position: absolute;
+		top: 265px;
+		left: 140px;
+		width: 100px;
+		height: 50px;
+		margin: 0 auto;
+		background-color: none;
+		background-image: url(../img/camaras.png);
+		background-size: 100px 50px;
+		background-repeat: no-repeat;
+	}
+
+	.solicitarS{
+		width: 250px;
+		height: 50px;
+		background-color: rgb(0, 121, 180);
+		color: white;
+		position: absolute;
+		top: 370px;
+		text-align: center;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+  		-moz-box-sizing: border-box;
+		padding-top: 16px;
+		font-size: 18px;
+		cursor: pointer;
+	}
+
+	.solicitarS:hover{
+		background-color: rgb(0, 121, 250);
+		color: white;
+	}
+
+
+
+		#planesContenedor h3{
+			color: #333;
+			text-align: center;
+		}
+
+
+	#footerPlanesDeServicios{
+	width: 100%;
+	height:70px;
+	font-size: 13px;
+	color: white;
+	margin-top: 30px;
+	text-align: center;
+	background-color: black;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 28px;
+}
+
+
+/****************************************FIN PLANES DE PAGO************************************************************/
+
+	#textoDelSection{
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+			position: absolute;
+			z-index: 90;
+			top: 10%;
+			left: 30px;
+			color: white;
+			font-size: 15px;
+			
+
+		}

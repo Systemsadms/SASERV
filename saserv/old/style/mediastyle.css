@@ -1,0 +1,722 @@
+ @charset "utf-8";
+/* CSS Document */
+
+
+/***************************************** (960px) (YELLOW) ******************************************/
+
+@media (max-width:800px){
+
+
+#textoDelSection{
+	display: none;
+}
+
+
+/*--------------------------HEADER-----------------------------------------*/
+	header{
+	width: 100%;
+	height:60px;
+	background-color: white;
+	position: relative; 
+	}
+
+
+		#contenedorbottonMenu{
+			width: 230px;
+			height: 45px;
+			background-color: none;
+			position: absolute;
+			top:20%;
+			left:2%; 
+
+		}
+						#bottonMenu{
+						width: 40px;
+						height: 45px;
+						background-color: none;
+						float: left;
+						background-size: 120%;
+						
+					}
+
+					#systemsAdms{
+						width: 190px;
+						height: 45px;
+						background-color: none;
+						
+					}
+
+										#systems{
+										width: 170px;
+										height: 20px;
+										background-color: none;
+										font-size: 15px;
+										margin-top: 0;
+										margin-left: 5px;
+
+									}
+
+									#adms{
+										width: 170px;
+										height: 18px;
+										background-color: none;
+										font-size: 15px;
+										margin-top: 0;
+										margin-left: 5px;
+										display: inline-block;
+									}
+
+									
+										#rifMenu{
+										display: none;
+									}
+
+		#contenedorbottonClientes{
+			width: 120px;
+			height: 45px;
+			background-color: none;
+			position: absolute;
+			top:20%;
+			right:2%; 
+		}
+
+									#cliente{
+										width: 40px;
+										height: 45px;
+										background-color: none;	
+										float: left;
+										background-image: url(../img/cliente.png);
+										background-size: 100%;
+										background-position: center;
+										background-repeat: no-repeat;
+
+										
+									}
+										#areadeCliente{
+										width: 70px;
+										height: 60%;
+										background-color: none;
+										font-size: 17px;
+										float: left;
+										margin-top: 7%;
+										margin-left: 1%;
+									}
+/*--------------------------FIN HEADER-----------------------------------------*/
+
+/*--------------------------SECTION PAGINA PRINCIPAL-----------------------------------------*/
+
+#original{
+	width: 100%;
+	height: 500px;
+	background-color: none;
+}
+
+/*--------------------------FIN SECTION PAGINA PRINCIPAL-----------------------------------------*/
+
+/*--------------------------FOOTER-----------------------------------------*/
+footer{
+	width: 100%;
+	height:150px;
+	background-color: white;
+	margin-top: 0px;
+}
+
+#bottonServicios{
+			width: 100%;
+			height: 50px;
+			background-color: none;
+		}
+				#servicios{
+							width: 280px;
+							height:100%;
+							background-color: none;
+						}
+
+
+						#imgServicios{
+							width: 50px;
+							height:100%;
+							float: left;
+							background-color: none;
+						}
+						
+		#bottonPlanesdepago{
+			width: 100%;
+			height: 50px;
+			background-color: none;
+			border-top: 2px solid black;
+		}
+
+			#planesdepago{
+							width: 280px;
+							height:100%;
+							background-color: none;
+						}
+
+									#imgPlanesdepago{
+										width: 50px;
+										height:100%;
+										float: left;
+										background-color: none;
+									}
+
+
+
+		#bottonContactenos{
+			width: 100%;
+			height: 50px;
+			background-color: none;
+			border-top: 2px solid black;
+		}
+				#contactenos{
+							width: 280px;
+							height:50px;
+							background-color: none;
+						}
+
+						#imgContactenos{
+							width: 50px;
+							height:100%;
+							float: left;
+							background-color: none;
+						}
+
+
+						.textFooter1{
+							width: 220px;
+							height: 30px;
+							background-color:none;
+							font-size: 18px;	
+						}
+
+						.textFooter2{
+							width: 280px;
+							height: 30px;
+							background-color:none;
+							font-size: 18px;	
+						}
+
+/*--------------------------FIN FOOTER-----------------------------------------*/
+
+/*--------------------------SECTION PAGINA SERVICIOS-----------------------------------------*/
+#ventanaServicios{
+	width: 100%;
+	height: 1000px;
+	background-color: none;
+	
+	background-size: 100% 100%;
+}
+
+		#serviciosPagina{
+			width: 100%;
+			height: 500px;
+			background-color: none;
+		}
+					#desarrolloweb{
+						width: 360px;
+						height: 140px;
+						background-color: rgba(0000, 0, 0, 0.7);
+						background-image: url(../img/web.png);
+						background-size: 45% 100%;
+						padding-top: 3px;
+						-moz-box-sizing: border-box;
+						background-repeat: no-repeat;
+						background-position: right;
+						margin: 0 auto;
+						margin-top: 45px;
+					}
+					#dominioyHosting{
+						width: 360px;
+						height: 140px;
+						background-color: rgba(0000, 0, 0, 0.7);
+						background-image: url(../img/hosting.png);
+						background-size: 45% 90%;
+						background-repeat: no-repeat;
+						background-position: right;
+						margin: 10px auto;
+						padding-top: 1px;
+						-moz-box-sizing: border-box;
+					}
+
+
+					#mercadeoSocial{
+						width: 360px;
+						height: 140px;
+						background-color: rgba(0000, 0, 0, 0.7);
+						background-image: url(../img/social.png);
+						background-size: 50%;
+						background-repeat: no-repeat;
+						background-position: right;
+						margin: 10px auto;
+						padding-top: 1px;
+					}
+		#serviciosSoporte{
+				width: 100%;
+				height: 500px;
+				background-color: none;
+			}
+
+						#soporteTecnico{
+							background-color: rgba(0000, 0, 0, 0.7);
+							width: 360px;
+							margin: 0 auto;
+							margin-top: none;
+						}
+
+						#cCTV{
+							width: 360px;
+							height: 140px;
+							background-color: rgba(0000, 0, 0, 0.7);
+							background-image: url(../img/cctv.png);
+							background-size: 50%;
+							background-repeat: no-repeat;
+							background-position: 170px 0px;
+							margin: 10px auto;
+							padding-top: 1px;
+						}
+								.textcctv{
+									font-size: 6px;
+								}
+
+						#network{
+							width: 360px;
+							height: 140px;
+							background-color: rgba(0000, 0, 0, 0.7);
+							background-image: url(../img/redes.png);
+							background-size: 60% 100%;
+							background-repeat: no-repeat;
+							background-position: right;
+							margin: 10px auto;
+							padding-top: 1px;
+						}
+
+						.predesarrollo{
+							color: white;
+							font-size: 20px;
+						}
+
+/*--------------------------FIN SECTION PAGINA SERVICIOS-----------------------------------------*/
+
+/*--------------------------SECTION PAGINA CONTACTENOS-----------------------------------------*/
+
+	#sectionContactanos{
+	width: 100%;
+	height: 1120px;
+	background-color: gray;
+	background-image: none;
+	}
+
+	#formularioContactenos{
+				width: 100%;
+				height: 1120px;
+				}
+							.inputc{
+									width: 250px;
+									}
+
+							#bottonsubmit{
+										width: 150px;
+									}
+
+				#informacion{
+					width: 100%;
+					height: 600px;
+					margin-bottom: 20px;
+				}
+
+							#telefono{
+								height: 20%;
+								width: 400px;
+							}
+									.tituloscontacto{
+										color: white;
+										font-size: 15px;
+									}
+
+							#email{
+								height: 20%;
+								width: 400px;
+							}
+							
+							#correo{
+								height: 20%;
+								width: 400px;
+							}
+
+/*--------------------------FIN SECTION FIN PAGINA CONTACTENOS-----------------------------------------*/
+
+/*--------------------------SECTION PAGINA AREA DEL CLEINTE-----------------------------------------*/
+
+	#sectionAreaDeClientes{
+	width: 100%;
+	height: 630px;
+	background-color: green;
+}
+			#loginmodal{
+			width:100%; 
+			height: 100%;
+			float:right;
+     		background-color: rgba(0000, 0, 0, 0.5);
+			border-left-color: white;
+			color: white;
+		}
+
+								
+							#tipo{
+								float:right;
+							}
+							
+							#camposlogin{
+								margin: 10% auto 0 auto; 
+								text-align:center; 
+								font-size:1.3em; 
+								color:white;
+							}
+							
+							#registro{
+								text-align:center; 
+								margin-top:4em; 
+								font-size:1.1em;	
+							}
+							
+							#social{
+								text-align:center; 
+								margin-top:4em;	
+							}
+							
+							#loginmodal a{
+								color:#FFF;
+								text-decoration:none;
+							}
+							
+							#loginmodal a:hover{			
+								text-decoration:line-through;		
+							}
+							
+		#recuperar{
+			width:30%; 
+			height:99.6%; 
+			float:right;			 			
+			background-color: rgba(0000, 0, 0, 0.5);
+			text-align:center;
+			color:#FFF;
+		}
+		
+						#recuperartitulo{
+							margin: 3em 0 3em 0;
+						}
+
+
+		#iramiCuenta{
+			width: 100%;
+			height: 100px;
+			background-color: none;
+			margin:50px auto;
+			text-align: center;
+			font-size: 20px;
+		}
+
+/*--------------------------FIN SECTION PAGINA AREA DEL CLIENTE-----------------------------------------*/
+
+	nav{
+				width: 300px;
+				height: 450px;
+				margin-left: 0px;		 	
+		}
+
+			nav li{
+				width: 200px;
+				height: 40px;
+			}
+
+
+
+
+
+
+
+
+
+/**********************************************SOLICITAR SERVICIOS************************************************************/
+#contenidoGeneral{
+	width: 100%;
+	height: auto;
+	background-color: none;
+	padding-top: 15px;
+}
+
+	#contenidoDesarrolloWeb{
+		width: 70%;
+		height: auto;
+		background-color: none;
+		margin: 0 auto;
+		background-image: url(../img/web.png);
+		background-repeat: no-repeat;
+		background-position: 50% 10px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		padding-top: 150px;
+	}
+
+			.bottonSolicitarServicio{
+				width: 200px;
+			}
+
+	.escrituraContenidoDerecha{
+		width: 90%;
+		height: auto;
+		background-color: none;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.escrituraContenidoIzquierda{
+		width: 90%;
+		height: auto;
+		background-color: none;
+		float: none;
+		margin: 0 auto;
+	}
+
+
+	#contenidoDominioyHosting{
+		width: 70%;
+		height: auto;
+		background-color: none;
+		margin: 15px auto;
+		background-image: url(../img/hosting.png);
+		background-repeat: no-repeat;
+		background-position: 50% 10px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		padding-top: 170px;
+	}
+	#contenidoMercadeoSocial{
+		width: 70%;
+		height: auto;
+		background-color: none;
+		margin: 15px auto;
+		background-image: url(../img/social.png);
+		background-repeat: no-repeat;
+		background-position: 50% 10px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		padding-top: 170px;
+
+	}
+	#contenidoSoporteTecnico{
+		width: 70%;
+		height: auto;
+		background-color: none;
+		margin: 15px auto;
+		background-image: url(../img/soporte.png);
+		background-repeat: no-repeat;
+		background-position: 50% 10px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		padding-top: 190px;
+	}
+	#contenidoCCTV{
+		width: 70%;
+		height: auto;
+		background-color: none;
+		margin: 15px auto;
+		background-image: url(../img/cctv.png);
+		background-repeat: no-repeat;
+		background-position: 50% 10px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		padding-top: 170px;
+	}
+	#contenidonetwork{
+		width: 70%;
+		height: auto;
+		background-color: none;
+		margin: 15px auto;
+		background-image: url(../img/redes.png);
+		background-repeat: no-repeat;
+		background-position: 50% 10px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		padding-top: 150px;
+	}
+
+
+/**********************************************SOLICITAR SERVICIOS************************************************************/
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:400px){
+
+
+
+
+	/**********************************************SOLICITAR SERVICIOS************************************************************/
+#contenidoGeneral{
+	width: 100%;
+	height: auto;
+	background-color: none;
+	padding-top: 15px;
+}
+
+	#contenidoDesarrolloWeb{
+		width: 100%;
+	}
+
+
+
+	#contenidoDominioyHosting{
+		width: 100%;
+	}
+	#contenidoMercadeoSocial{
+		width: 100%;
+	}
+	#contenidoSoporteTecnico{
+		width: 100%;
+	}
+	#contenidoCCTV{
+		width: 100%;
+	}
+	#contenidonetwork{
+		width: 100%;
+	}
+
+
+/**********************************************SOLICITAR SERVICIOS************************************************************/
+
+
+
+
+	nav{
+				background-color: rgba(0000, 0, 0, 0.8);
+				width: 100%;
+				height: auto;
+				margin-left: 0px;
+				text-align: center;		 	
+		}
+
+			nav li{
+				padding-left: 0px;
+				padding-left: 0px;
+				width: 100%;
+				height: 40px;
+			}
+
+			nav ul{
+				margin:0px;
+				padding-left: 0px;
+				padding-top: 10px;
+			}
+
+
+/*--------------------------SECTION PAGINA CONTACTENOS-----------------------------------------*/
+					#telefono{
+								height: 20%;
+								width: 100%;
+							}
+									.tituloscontacto{
+										color: white;
+										font-size: 15px;
+									}
+
+							#email{
+								height: 20%;
+								width: 100%;
+							}
+							
+							#correo{
+								height: 20%;
+								width: 100%;
+							}
+/*--------------------------FIN SECTION PAGINA CONTACTENOS-----------------------------------------*/
+
+/*--------------------------SECTION PAGINA SERVICIOS-----------------------------------------*/
+					#desarrolloweb{
+						width: 100%;
+					}
+					#dominioyHosting{
+						width: 100%;
+					}
+					#mercadeoSocial{
+						width: 100%;
+					}
+					#soporteTecnico{
+						width: 100%;
+					}
+					#cCTV{
+						width: 100%;
+					}
+					#network{
+						width: 100%;
+					}
+
+/*--------------------------FIN SECTION PAGINA CONTACTENOS-----------------------------------------*/
+}
+
+@media (max-width:380px){
+
+
+
+
+
+
+
+/*--------------------------SECTION PAGINA SERVICIOS-----------------------------------------*/
+
+					#telefono{
+								height: 20%;
+								width: 100%;
+								background-image: url(../iconos/telefono.png);
+								background-position: left;
+								background-repeat: no-repeat;
+								background-color: none;
+								margin:10% auto;
+							}
+									.tituloscontacto{
+										color: white;
+										font-size: 11px;
+									}
+
+							#email{
+								height: 20%;
+								width: 100%;
+								background-color: none;
+								background-image: url(../iconos/correo.png);
+								background-size: 25%;
+								background-position: left;
+								background-repeat: no-repeat;
+								margin:5% auto;
+							}
+							
+							#correo{
+								height: 20%;
+								width: 100%;
+								background-color: none;
+								background-image: url(../iconos/social23.png);
+								background-size: 25%;
+								background-position: left;
+								background-repeat: no-repeat;
+								margin:10% auto;
+							}
+/*--------------------------FIN SECTION PAGINA CONTACTENOS-----------------------------------------*/
+}
+
+
+

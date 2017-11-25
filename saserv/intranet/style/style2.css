@@ -1,0 +1,138 @@
+@charset "utf-8"
+/* CSS Document*/
+
+.hidden {display: none;}
+.show { width:243px;}
+
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.hidden{
+	display: none;
+}
+
+.show:{
+	display: show;
+}
+
+
+html, body{
+	margin:0;
+	height: 100%;
+	min-height: 600px;
+	font-size: 1em;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow: none;
+	background-image: url("../img/bk1.jpeg");
+	background-size: 100% 100%;
+
+}
+
+
+
+
+#aside{
+	height:100%;
+	width: 80px;
+	background-color: black;
+	text-align: center;
+	font-size: 12px;
+	color: grey;
+	position: absolute;
+}
+
+#botonera{
+	height:90%;
+	width: 80px;
+	background-color: black;
+	text-align: center;
+	font-size: 12px;
+	color: grey;
+	display: inline-block;
+}
+
+		
+
+.boton{
+	width: 55px; 
+	height: 55px; 
+	display: inline-block;
+	border-radius: 5px;
+	background-color: #44464c;
+	margin-top: 20px;
+	cursor: pointer;
+	
+}
+
+	.boton :hover{
+			background-color: #d24949;
+			width: 55px; 
+			height: 55px; 	
+			border-radius: 5px;		
+		}
+
+
+
+.boton3{
+	width: 110px; 
+	height: 45px; 
+	display: inline-block;
+	border-radius: 5px;
+	background-color: #e0e0e0;
+	margin-top: -20px;
+	cursor: pointer;
+	margin-top: 5px;
+	color: #597fe1;
+	border:solid 1px white;
+}
+
+
+
+
+.ticket{
+	background-color: white;
+	width: 300px;
+	height: 130px;
+	color: #444444;
+	text-align: center;
+	display: inline-block;
+	margin: 5px 5px 5px 5px;
+	line-height: 30px;
+	border: 1px solid green;
+}
+
+.factura{
+	background-color: white;
+	width: 300px;
+	height: 150px;
+	color: #444444;
+	text-align: center;
+	display: inline-block;
+	margin: 5px 5px 5px 5px;
+	line-height: 30px;
+	border: 1px solid green;
+}
+
+.btm_abrirTicket{
+	background-color: #cccccc;
+	border: none;
+	font-size: 20px;
+	height: 40px;
+	width: 100%;
+	cursor: pointer;
+	color: grey;
+
+}
+
+.campoText{
+	width: 250px;
+	height: 30px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+
+}
+

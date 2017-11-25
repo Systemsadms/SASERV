@@ -1,0 +1,211 @@
+ @charset "utf-8";
+/* CSS Document */
+
+
+/***************************************** (960px) (YELLOW) ******************************************/
+
+@media (max-width:800px){
+
+
+/*--------------------------HEADER-----------------------------------------*/
+	header{
+	width: 100%;
+	height:60px;
+	background-color: none;
+	position: relative; 
+	}
+
+
+		#contenedorbottonMenu{
+			width: 230px;
+			height: 45px;
+			background-color: none;
+			position: absolute;
+			top:20%;
+			left:2%; 
+
+		}
+						#bottonMenu{
+						width: 40px;
+						height: 45px;
+						background-color: none;
+						float: left;
+						background-size: 120%;
+						
+					}
+
+					#systemsAdms{
+						width: 200px;
+						height: 45px;
+						background-color: none;
+						
+					}
+
+										#systems{
+										width: 170px;
+										height: 20px;
+										background-color: none;
+										font-size: 15px;
+										margin-top: 0;
+										margin-left: 5px;
+
+									}
+
+									#adms{
+										width: 170px;
+										height: 18px;
+										background-color: none;
+										font-size: 15px;
+										margin-top: 0;
+										margin-left: 5px;
+										display: inline-block;
+									}
+
+									
+										#rifMenu{
+										display: none;
+									}
+
+		#contenedorbottonClientes{
+			width: 60px;
+			height: 45px;
+			background-color: none;
+			position: absolute;
+			top:20%;
+			right:2%; 
+		}
+
+									#cliente{
+										width: 40px;
+										height: 45px;
+										background-color: none;	
+										float: left;
+										background-image: url(../img/cliente.png);
+										background-size: 100%;
+										background-position: center;
+										background-repeat: no-repeat;
+
+										
+									}
+										#areadeCliente{
+										width: 70px;
+										height: 60%;
+										background-color: none;
+										font-size: 17px;
+										float: left;
+										margin-top: 7%;
+										margin-left: 1%;
+									}
+/*--------------------------FIN HEADER-----------------------------------------*/
+
+
+
+/*--------------------------SECTION PAGINA AREA DEL CLEINTE-----------------------------------------*/
+
+			#loginmodalMenuOtro{
+			width:100%; 
+			height: 550px;
+			float:right;
+     		/*background-color: rgba(0000, 0, 0, 0.5);*/
+     		background-color: black;
+			border-left-color: white;
+			color: white;
+		}
+
+								
+							#tipo{
+								float:right;
+							}
+							
+							#camposlogin{
+								margin: 10% auto 0 auto; 
+								text-align:center; 
+								font-size:1.3em; 
+								color:white;
+							}
+							
+							#registro{
+								text-align:center; 
+								margin-top:4em; 
+								font-size:1.1em;	
+							}
+							
+							#social{
+								text-align:center; 
+								margin-top:4em;	
+							}
+							
+							#loginmodalMenuOtro a{
+								color:#FFF;
+								text-decoration:none;
+							}
+							
+							#loginmodalMenuOtro a:hover{			
+								text-decoration:line-through;		
+							}
+							
+		#recuperar{
+			width:30%; 
+			height:99.6%; 
+			float:right;			 			
+			background-color: rgba(0000, 0, 0, 0.5);
+			text-align:center;
+			color:#FFF;
+		}
+		
+						#recuperartitulo{
+							margin: 3em 0 3em 0;
+						}
+
+
+		#iramiCuenta{
+			width: 100%;
+			height: 100px;
+			background-color: none;
+			margin:50px auto;
+			text-align: center;
+			font-size: 20px;
+		}
+
+/*--------------------------FIN SECTION PAGINA AREA DEL CLIENTE-----------------------------------------*/
+
+	#navMenuOtro{
+				width: 300px;
+				height: 450px;
+				margin-left: 0px;		 	
+		}
+
+			#navMenuOtro li{
+				width: 200px;
+				height: 40px;
+			}
+
+}
+
+
+
+
+@media (max-width:400px){
+
+	#navMenuOtro{
+				/*background-color: rgba(0000, 0, 0, 0.8);*/
+				background-color: black;
+				width: 100%;
+				height: auto;
+				margin-left: 0px;
+				text-align: center;		 	
+		}
+
+			#navMenuOtro li{
+				padding-left: 0px;
+				padding-left: 0px;
+				width: 100%;
+				height: 40px;
+			}
+
+			#navMenuOtro ul{
+				margin:0px;
+				padding-left: 0px;
+				padding-top: 10px;
+			}
+}
